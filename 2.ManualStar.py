@@ -8,7 +8,7 @@ def drive_polygon(droid: SpheroEduAPI, n: int, speed: int = 100, duration: int =
     if n < 3:
         raise ValueError("A polygon must have at least 3 sides")
    
-    #interior_angle = (n - 2) * 180 / n
+    
     interior_angle=36
     exterior_angle= 180 -interior_angle
     def drive_with_commands(droid: SpheroEduAPI,roll_commands):
