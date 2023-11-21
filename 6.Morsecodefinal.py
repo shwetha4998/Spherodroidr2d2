@@ -51,6 +51,5 @@ def play_message(droid: SpheroEduAPI, message: str, dot_duration: float = 0.1, d
         time.sleep(time_between_letters)
 
 
-#if __name__ == '__main__':
 with SpheroEduAPI(toy) as droid:
         play_message(droid, 'HELP')
